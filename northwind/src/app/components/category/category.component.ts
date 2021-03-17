@@ -35,4 +35,17 @@ this.currentCategory=category;
       }
    
     }
+    setAllCategory(){
+      this.currentCategory;
+          }
+getAllCategoryClass(){
+  if(!this.currentCategory){
+    return "list-group-item active"
+  }
+  else{
+    return "list-group-item"
+  
+}
+
+}
 }
